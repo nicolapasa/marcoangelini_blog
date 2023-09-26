@@ -1,0 +1,11 @@
+Options -MultiViews
+<IfModule mod_rewrite.c>
+RewriteEngine On 
+
+RewriteBase /marcoangelini/public
+
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.+)$ /marcoangelini/index.php?url=$1 [L]
+</IfModule>
