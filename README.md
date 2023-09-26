@@ -6,9 +6,9 @@ PHP and MYSQL
 
 #tecnology
 
--PHP
--MYSQL
--JAVASCRIPT
--HTML
--CSS
+- PHP
+- MYSQL
+- JAVASCRIPT
+- HTML
+- CSS
 
